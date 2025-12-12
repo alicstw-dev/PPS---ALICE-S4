@@ -19,9 +19,9 @@ Execução
 
 Para executar a classe Cliente:
 
-java -cp ".;lib/json-20231013.jar" ESTRUTURAIS.ADAPTER.Cliente
+java -cp ".;lib/json-20231013.jar" ESTRUTURAIS.ADAPTER.Main
 
 
 Observação: No Linux ou macOS, substitua ; por : no classpath:
 
-java -cp ".:lib/json-20231013.jar" ESTRUTURAIS.ADAPTER.Cliente
+java -cp ".:lib/json-20231013.jar" ESTRUTURAIS.ADAPTER.Main
