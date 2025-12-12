@@ -1,0 +1,27 @@
+Requisitos
+
+Java JDK instalado (versão 8 ou superior)
+
+Biblioteca json-20231013.jar presente na pasta lib
+
+Compilação
+
+Para compilar todas as classes do pacote ESTRUTURAIS.ADAPTER:
+
+javac -cp ".;lib/json-20231013.jar" ESTRUTURAIS/ADAPTER/*.java
+
+
+Observação: No Linux ou macOS, substitua ; por : no classpath:
+
+javac -cp ".:lib/json-20231013.jar" ESTRUTURAIS/ADAPTER/*.java
+
+Execução
+
+Para executar a classe Cliente:
+
+java -cp ".;lib/json-20231013.jar" ESTRUTURAIS.ADAPTER.Cliente
+
+
+Observação: No Linux ou macOS, substitua ; por : no classpath:
+
+java -cp ".:lib/json-20231013.jar" ESTRUTURAIS.ADAPTER.Cliente
